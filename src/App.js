@@ -1,8 +1,10 @@
 import React from 'react'; 
 import './App.css';
 
+import profile from './assets/0.jpeg';
+
 function App() {
-  return <h1>Hello Caio</h1>
+  return <img width="200" src={profile} />
 }
 
 export default App;
